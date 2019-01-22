@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #330236;
+  --color-primary-pair: #C9463D;
+  --color-secondary: #5E1742;
+  --color-secondary-pair: #962E40;
+  --color-focus-page: #FF5E35;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-grey: #707070;
+
+  --font-primary: futura-pt, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
