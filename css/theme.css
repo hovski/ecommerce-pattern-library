@@ -19,7 +19,7 @@ h1,
 h2 {
   color: var(--color-white: #FFFFFF);
   font-family: var(--font-primary: futura-pt, sans-serif);
-  font-variant: all-caps;
+  font-variant: small-caps;
   font-weight: bold;
 }
 
