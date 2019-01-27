@@ -23,7 +23,9 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
+h3,
+blockquote,
+cite {
   color: --color-white: #FFFFFF;
   font-family: --font-primary: futura-pt, sans-serif;
   font-weight: bold;
