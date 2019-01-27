@@ -17,8 +17,8 @@ html {
 
 h1,
 h2 {
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-variant: small-caps;
   font-weight: bold;
 }
@@ -26,39 +26,39 @@ h2 {
 h3,
 blockquote,
 cite {
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: bold;
 }
 
 h4 {
-  color: --color-black: #000000;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-black: #000000);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-variant: small-caps;
   font-weight: bold;
 }
 
 h5 {
-  color: --color-black: #000000;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-black: #000000);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: bold;
 }
 
 h6 {
-  color: --color-black: #000000;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-black: #000000);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: normal;
 }
 
 p {
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: normal;
 }
 
 a {
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: bold;
   font-variant: small-caps;
 }
@@ -67,20 +67,20 @@ ul li,
 ol li,
 dl dt {
   list-style-type: none;
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: bold;
 }
 
 dd {
   list-style-type: none;
-  color: --color-black: #000000;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-black: #000000);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: bold;
 }
 
 small {
-  color: --color-white: #FFFFFF;
-  font-family: --font-primary: futura-pt, sans-serif;
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: normal;
 }
