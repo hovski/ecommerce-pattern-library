@@ -84,3 +84,23 @@ small {
   font-family: var(--font-primary: futura-pt, sans-serif);
   font-weight: normal;
 }
+
+mark {
+  color: var(--color-focus-page: #FF5E35);
+  font-family: var(--font-primary: futura-pt, sans-serif);
+  font-weight: normal;
+}
+
+em,
+strong,
+del,
+ins,
+abbr,
+dfn,
+i,
+b,
+s,
+u {
+  color: var(--color-white: #FFFFFF);
+  font-family: var(--font-primary: futura-pt, sans-serif);
+}
