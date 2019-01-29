@@ -2,4 +2,26 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Teased"
+  description: |
+    Teased is an independent specialty tea shop that keeps young tea lovers excited on health benefits.
   font_url: "https://use.typekit.net/nyj5mkf.css"
+  colors:
+    background: "--color-primary"
+    accent: "--color-primary-pair"
+    patterns:
+      brand.logos: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Futura was selected because of it's trendy strong Geometric Sans feel. Futura is to be used for all body copy and all situations.
+    colors.primary: |
+      The primary color will be used only for background colors, never text colors.
+
+      - Use this color on "Teas" page - as the background color for: Black Teas.
+      - You will also use this color on our "Product Description" page, specifically for the tea recommendation grid below the product banner.
+      - You'll also use this on the "Cart" page, for the Shipping address background header color.
+
+      The primary pair color will be used only for an accent to primary color. This is never a text color.
+
+      - Use this color on "Teas" page - as the accent color for the line in the header of: Black Teas
+      - You'll also use this on the "Cart" page, for the accent color for the line in the header of : Shipping Address.

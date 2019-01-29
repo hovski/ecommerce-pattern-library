@@ -1,8 +1,16 @@
 :root {
   --color-primary: #330236;
   --color-primary-pair: #C9463D;
+  --color-primary-opacity: rgba(201, 70, 61, .5);
   --color-secondary: #5E1742;
   --color-secondary-pair: #962E40;
+  --color-secondary-opacity: rgba(150, 46, 64, .5);
+  --color-tertiary: #962E40;
+  --color-tertiary-pair: #5E1742;
+  --color-tertiary-opacity: rgba(94, 23, 66, .5);
+  --color-quaternary-pair: #C9463D;
+  --color-quaternary-pair: #330236;
+  --color-quaternary-opacity: rgba(51, 2, 54, .5);
   --color-focus-page: #FF5E35;
   --color-white: #FFFFFF;
   --color-black: #000000;
@@ -69,7 +77,7 @@ dl dt {
   list-style-type: none;
   color: var(--color-white);
   font-family: var(--font-primary);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 dd {
