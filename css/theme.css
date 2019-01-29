@@ -86,7 +86,7 @@ small {
 }
 
 mark {
-  color: var(--color-focus-page);
+  background-color: var(--color-focus-page);
   font-family: var(--font-primary);
   font-weight: normal;
 }
