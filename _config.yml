@@ -15,13 +15,18 @@ patternbot:
     typefaces.primary: |
       Futura was selected because of it's trendy strong Geometric Sans feel. Futura is to be used for all body copy and all situations.
     colors.primary: |
-      The primary color will be used only for background colors, never text colors.
+      The primary color will only be used for background colors. Never use as text color.
 
-      - Use this color on "Teas" page - as the background color for: Black Teas.
-      - You will also use this color on our "Product Description" page, specifically for the tea recommendation grid below the product banner.
-      - You'll also use this on the "Cart" page, for the Shipping address background header color.
+      - On "Teas" page - use primary color for the background of: Black Teas.
+      - On "Product Description" page - use primary color as the background color for the grid below the product description.
+      - On "Cart" page - use primary color for the Shipping address background header color.
 
-      The primary pair color will be used only for an accent to primary color. This is never a text color.
+      The primary pair color will be used only as an accent color to our primary color. Never use as text color.
 
-      - Use this color on "Teas" page - as the accent color for the line in the header of: Black Teas
-      - You'll also use this on the "Cart" page, for the accent color for the line in the header of : Shipping Address.
+      - On "Teas" page - use primary pair color for the line in the header of: Black Teas
+      - On "Cart" page - use primary pair color for the line in the header of: Shipping Address.
+
+      The primary pair opacity color will only ever be used on our image hovers.
+
+      - On "Teas" page - use this opacity color for product image hovers for the Black Tea section.
+    colors.secondary: |
