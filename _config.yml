@@ -29,4 +29,47 @@ patternbot:
       The primary pair opacity color will only ever be used on our image hovers.
 
       - On "Teas" page - use this opacity color for product image hovers for the Black Tea section.
+      - On "Product Description" page - use this opacity color for the hover section of: You Might Like These section.
     colors.secondary: |
+      The secondary color will only be used for background colors. Never use as text color.
+
+      - On "Home" page - use seconday color for the background of: Our Best Sellers.
+      - On "Product Description" page - use seconday color as the background color for: Green Tea grid.
+      - On "Cart" page - use seconday color for the Billing Address background header color.
+
+      The secondary pair color will be used only as an accent color to our primary color. Never use as text color.
+
+      - On "Teas" page - use secondary pair color for the line in the header of: Green Tea.
+      - On "Cart" page - use secondary pair color for the line in the header of: Billing Address.
+
+      The secondary pair opacity color will only ever be used on our image hovers.
+
+      - On "Teas" page - use this opacity color for product image hovers for the Green Tea section.
+    colors.tertiary: |
+      The tertiary color will only be used for background colors. Never use as text color.
+
+      - On "Teas" page - use tertiary color as the background color for: Herbal Tea grid.
+      - On "Product Description" page - use tertiary color as the background color for the product background.
+      - On "Cart" page - use tertiary color for My Order background header color, and Place Order background header color.
+
+      The tertiary pair color will be used only as an accent color to our primary color. Never use as text color.
+
+      - On "Teas" page - use tertiary pair color for the line in the header of: Herbal Tea.
+      - On "Product Description" page - use tertiary pair color as the line in the subheader of Product Description aka tea type.
+      - On "Cart" page - use tertiary pair color for the line accent in My Order header, and the line accent in Place Order header.
+
+      The tertiary pair opacity color will only ever be used on our image hovers.
+
+      - On "Teas" page - use this opacity color for product image hovers for the Herbal Tea section.
+    colors.quaternary: |
+      The quaternary color will only be used for background colors. Never use as text color.
+
+      - On "Teas" page - use quaternary color as the background color for: White Tea grid.
+
+      The quaternary pair color will be used only as an accent color to our primary color. Never use as text color.
+
+      - On "Teas" page - use quaternary pair color for the line in the header of: White Tea.
+
+      The quaternary pair opacity color will only ever be used on our image hovers.
+
+      - On "Teas" page - use this opacity color for product image hovers for the White Tea section.

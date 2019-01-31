@@ -1,0 +1,60 @@
+.btn {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-white);
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  color: var(--color-black);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn-light {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.button-place {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.button-place:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+  font-weight: bold;
+}
