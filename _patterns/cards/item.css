@@ -1,3 +1,18 @@
-.card-1:hover {
-  background-color: var(--color-primary-opacity);
+a.card-1:hover::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: var(--color-primary-opacity);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card-icon {
+  visibility: hidden;
+}
+
+.card-1:hover .card-icon {
+  visibility: visible;
 }
