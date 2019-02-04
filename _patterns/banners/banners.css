@@ -1,0 +1,12 @@
+.quality-color {
+  background-color: var(--color-white);
+}
+
+.border-col {
+  background-color: transparent;
+  border-color: var(--color-black);
+}
+
+.title-line {
+  color: var(--color-tertiary-pair);
+}
