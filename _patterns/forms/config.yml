@@ -1,0 +1,25 @@
+description: |
+The forms are to be used to showcase the websites most important features.
+
+Forms can be combined with other forms throughout the Product Description page.
+patterns:
+  comment:
+    title: "Comment"
+    description: |
+      Comment forms are used alone or together with other forms. Mainly on the product description page.
+  date:
+    title: "Date"
+    description: |
+      Date forms are used alone or together with other forms. Mainly on the product description page.
+  list:
+    title: "List"
+    description: |
+      List forms are used alone or together with other forms. Mainly on the product description page.
+  main:
+    title: "Main"
+    description: |
+      Main forms are used alone or together with other forms. Mainly on the product description page.
+  radio:
+    title: "Radio"
+    description: |
+      Radio forms are used alone or together with other forms. Mainly on the product description page.

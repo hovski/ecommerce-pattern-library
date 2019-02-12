@@ -1,0 +1,25 @@
+description: |
+  The cards are to be used to showcase the websites most important features.
+
+  Cards can be combined with images and throughout section grids.
+patterns:
+  item:
+    title: "White Tea Card"
+    description: |
+      White Tea Cards are used only specifically for White teas. Can be used in a grid grouping or individually.
+    item-2:
+      title: "Herbal Tea Card"
+      description: |
+        Herbal Tea Cards are used only specifically for Herbal teas. Can be used in a grid grouping or individually.
+      item-3:
+        title: "Green Tea Card"
+        description: |
+          Green Tea Cards are used only specifically for Green teas. Can be used in a grid grouping or individually.
+      item-4:
+        title: "Black Tea Card"
+        description: |
+          Black Tea Cards are used only specifically for Black teas. Can be used in a grid grouping or individually.
+        checkout-card:
+          title: "Checkout Card"
+          description: |
+            Checkout Cards are used only specifically for product checkout cart. Can be used in a grid grouping or individually.

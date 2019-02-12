@@ -1,5 +1,15 @@
+description: |
+  The banners are to be used to showcase the websites most important features.
+
+  Banners can be combined with buttons, images, and the header.
 patterns:
   banner:
+    title: "Call To Action Banner"
+    description: |
+      The Call-To-Action banner is used only on the homepage.
     height: 600
   banner-2:
+    title: "Banner 2"
+    description: |
+      The banner-2 is to be used on any other additional page except: Homepage, Product Description, and the Cart page.
     height: 600
