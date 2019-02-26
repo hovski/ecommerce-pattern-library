@@ -11,7 +11,7 @@ patterns:
     title: "Button Place"
     description: |
       Button Place buttons are used for the quantity grid section on Product Description page. Or the checkout place order.
-    Ghost:
-      title: "Ghost"
-      description: |
-        Ghost buttons are used for call to action banners section on our homepage. Can be used on any call to action banner throughout the website.
+  Ghost:
+    title: "Ghost"
+    description: |
+      Ghost buttons are used for call to action banners section on our homepage. Can be used on any call to action banner throughout the website.
