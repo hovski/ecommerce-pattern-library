@@ -1,0 +1,27 @@
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid var(--color-focus-page);
+  color: var(--color-grey);
+}
+
+.nav-links:focus {
+  text-decoration: underline;
+  color: var(--color-focus-page);
+}
+
+.nav-current {
+  text-decoration: underline;
+  color: var(--color-focus-page);
+}
+
+.footer-listcolor {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.footer-listcolor:hover {
+  color: var(--color-grey);
+}

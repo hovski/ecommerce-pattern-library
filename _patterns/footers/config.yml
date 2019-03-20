@@ -1,0 +1,10 @@
+description: |
+  The footers follow the same pattern on all pages and all screens.
+
+  Footers can be combined with one another.
+patterns:
+  footer-social:
+    title: "Footer Social"
+    description: |
+      This black footer will always be on the left hand side of the white footer. On small screens this social footer will always be above footer-linked.
+    width: "29em"

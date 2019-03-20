@@ -1,12 +1,16 @@
 description: |
-The forms are to be used to showcase the websites most important features.
+  The forms are to be used to showcase the websites most important features.
 
-Forms can be combined with other forms throughout the Product Description page.
+  Forms can be combined with other forms throughout the Product Description page.
 patterns:
   comment:
     title: "Comment"
     description: |
       Comment forms are used alone or together with other forms. Mainly on the product description page.
+    fields:
+      - name: label
+        type: string
+        example: "Have a question, ask away!"
   date:
     title: "Date"
     description: |
@@ -15,11 +19,23 @@ patterns:
     title: "List"
     description: |
       List forms are used alone or together with other forms. Mainly on the product description page.
+    fields:
+      - name: lists
+        type: string
+        example: "Province"
   main:
     title: "Main"
     description: |
       Main forms are used alone or together with other forms. Mainly on the product description page.
+    fields:
+      - name: name
+        type: string
+        example: "First Name"
   radio:
     title: "Radio"
     description: |
       Radio forms are used alone or together with other forms. Mainly on the product description page.
+    fields:
+      - name: radio
+        type: string
+        example: "Keep me up to date on news and offers."

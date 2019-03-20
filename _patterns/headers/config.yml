@@ -1,0 +1,8 @@
+description: |
+  The headers is used on every single page. This is the navigation on all the website pages.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      Header is the navigation of every single page. Don't use this anywhere else on the website.

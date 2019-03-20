@@ -1,15 +1,80 @@
 description: |
   The banners are to be used to showcase the websites most important features.
 
-  Banners can be combined with buttons, images, and the header.
+  Banners can be combined with buttons, images, and the header.
 patterns:
   banner:
     title: "Call To Action Banner"
     description: |
       The Call-To-Action banner is used only on the homepage.
     height: 600
+    fields:
+      - name: headermain
+        type: string
+        example: "EXCITE YOUR SENSES"
+      - name: text
+        type: string
+        example: "When drinking TEASED, you’ll never be a prisoner of your desires."
+      - name: button_url
+        type: string
+        example: "/products/"
+        required: false
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
   banner-2:
     title: "Banner 2"
     description: |
       The banner-2 is to be used on any other additional page except: Homepage, Product Description, and the Cart page.
     height: 600
+    fields:
+      - name: productmain
+        type: string
+        example: "DISCOVER YOUR TORMENT"
+      - name: textz
+        type: string
+        example: "With our focus on unique blends and healthy choices, you’ll be left always wanting more."
+  product-description:
+    title: "Product Description"
+    description: |
+      The Product Description is to be used on only the product page.
+    fields:
+      - name: descriptiontext
+        type: string
+        example: "This tea is well paired with indulging citrus fruit."
+      - name: nameoftea
+        type: string
+        example: "Black Tea"
+      - name: teatype
+        type: string
+        example: "Black Tea"
+      - name: price
+        type: string
+        example: "9.99"
+      - name: caffiene1
+        type: string
+        example: "caffiene"
+      - name: caffiene2
+        type: string
+        example: "caffiene"
+      - name: caffiene3
+        type: string
+        example: "caffiene"
+      - name: caffiene4
+        type: string
+        example: "caffiene"
+      - name: caffiene5
+        type: string
+        example: "caffiene"
+      - name: image
+        type: string
+        example: "/images/betty-white.jpg"
+      - name: button_text
+        type: string
+        example: "See Collection"
+        required: false
+      - name: button_addcart
+        type: url
+        example: "/products/"
+        required: false

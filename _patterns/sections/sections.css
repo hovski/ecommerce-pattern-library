@@ -1,0 +1,108 @@
+.bg-section-white {
+  background-color: var(--color-primary-pair);
+}
+
+.whiteline {
+  color: var(--color-primary);
+}
+
+.bg-section-herbal {
+  background-color: var(--color-secondary-pair);
+}
+
+.herballine {
+  color: var(--color-secondary);
+}
+
+.blackline {
+  color: var(--color-quaternary);
+}
+
+.bg-section-black {
+  background-color: var(--color-quaternary-pair);
+}
+
+.greenline {
+  color: var(--color-tertiary);
+}
+
+.bg-section-green {
+  background-color: var(--color-tertiary-pair);
+}
+
+.bg-section-carousel {
+  background-color: var(--color-primary);
+}
+
+.order-bgcolor {
+  background-color: var(--color-tertiary);
+}
+
+.order-line {
+  color: var(--color-tertiary-pair);
+}
+
+.shipping-bgcolor {
+  background-color: var(--color-primary);
+}
+
+.shipping-line {
+  color: var(--color-primary-pair);
+}
+
+.billing-bgcolor {
+  background-color: var(--color-tertiary-pair);
+}
+
+.billing-line {
+  color: var(--color-tertiary);
+}
+
+.place-bgcolor {
+  background-color: var(--color-tertiary);
+}
+
+.place-line {
+  color: var(--color-tertiary-pair);
+}
+
+.subtotal-bg {
+  background-color: var(--color-grey);
+  color: var(--color-white);
+}
+
+.total-bg {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+.carousel-btn {
+  border: 3px solid var(--color-secondary-pair);
+  border-radius: 50%;
+}
+
+#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
+#elasmotherium-control:checked ~ .carousel-inner #elasmotherium,
+#glyptodon-control:checked ~ .carousel-inner #glyptodon,
+#megatherium-control:checked ~ .carousel-inner #megatherium {
+  display: block;
+}
+
+#arsinoitherium-control:checked ~ .carousel-inner [for="arsinoitherium-control"],
+#elasmotherium-control:checked ~ .carousel-inner [for="elasmotherium-control"],
+#glyptodon-control:checked ~ .carousel-inner [for="glyptodon-control"],
+#megatherium-control:checked ~ .carousel-inner [for="megatherium-control"] {
+  background-color: var(--color-secondary);
+}
+
+.embed-golden, .embed--golden {
+  padding-top: 0;
+}
+
+.bkground-wyl {
+  background-color: var(--color-primary);
+}

@@ -1,0 +1,64 @@
+description: |
+  The sections are to be used to showcase the websites most important features.
+
+  Sections can be used on all pages in different areas.
+patterns:
+  billing-head:
+    title: "Billing-Head"
+    description: |
+      Use this header section on top of the Billing Address form section.
+  black-section:
+    title: "Black Tea"
+    description: |
+      This is the last section on my Products page. It should be just above the footer.
+  carousel-section:
+    title: "Carousel-Section"
+    description: |
+      Place anywhere in a section that requires a carousel display for teas.
+  green-section:
+    title: "Green Tea"
+    description: |
+      This is the second last section on my Products page. It should be just above the Black Tea section near the bottom of the products page.
+  herbal-section:
+    title: "Herbal Tea"
+    description: |
+      This is the second  section from the top of on my Products page. It should be just above the Green Tea.
+  order-head:
+    title: "My Order"
+    description: |
+      This is my Form main header. It isn't attached to any form fields or forms. It's outside on it's own on the page.
+  placeorder-head:
+    title: "Place Order Header"
+    description: |
+      Use this header section on top of the Place Order Section.
+  shipping-head:
+    title: "Shipping Address"
+    description: |
+      This is my Form header for Shipping Address. It's above the Shipping Address formfields.
+  subtotal:
+    title: "Subtotal Field"
+    description: |
+      Use this in the subtotal section of the formfield.
+    fields:
+      - name: subtotal
+        type: string
+        example: "9.99"
+      - name: standardship
+        type: string
+        example: "9.99"
+  total:
+    title: "Total Field"
+    description: |
+      Use this in the Total section of the formfield.
+    fields:
+      - name: pricingtotal
+        type: string
+        example: "9.99"
+  whatyoulike-section:
+    title: "What You Might Like"
+    description: |
+      This is a suggestion section underneat the top banner of the Products page. Use this where needed if on additional pages.
+  white-section:
+    title: "White Tea"
+    description: |
+      This is the first section from the top of on my Products page. It should be just above Herbal Tea.

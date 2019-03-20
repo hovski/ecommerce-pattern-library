@@ -1,0 +1,15 @@
+description: |
+  The navigation is used to help the user navigate throughout the website. It's used in the header and the footer. There are two footer patterns and you stack both of them one on top of the other.
+patterns:
+  footer-links-top:
+    title: "Footer Link Top"
+    description: |
+      Used at the top of the footer navigation lists. It's used as the titles of each list for the footer links navigation.
+  footer-links:
+    title: "Footer-Links"
+    description: |
+      This is used as the footer links lists. Put these with the Footer Link Tops (underneath them).
+  navigation:
+    title: "navigation"
+    description: |
+      Use this in the header for all pages.

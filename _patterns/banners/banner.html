@@ -1,7 +1,9 @@
 <div class="relative banner-image1 center-content">
   <div class="gutter-2 text-position w-1">
-    <h1 class="push-0">EXCITE YOUR SENSES</h1>
-    <p>When drinking TEASED, you’ll never be a prisoner of your desires.</p>
-    {% pattern buttons/ghost %}
+    <h1 class="push-0">{{include.headermain}}</h1>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/ghost text=include.button_text url=include.button_url %}
+    {% endif %}
   </div>
 </div>

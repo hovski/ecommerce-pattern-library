@@ -1,17 +1,41 @@
 description: |
   The buttons are to be used to showcase the websites most important features.
 
-  Buttons can be combined with banners, images, and the header.
+  Buttons can be combined with banners, images, and the header.
 patterns:
   basic:
     title: "Basic"
     description: |
       Basic buttons are used for the quantity grid section on Product Description page. Or the checkout place order.
+    fields:
+      - name: addcart
+        type: string
+        example: "addcart"
+      - name: buttontext1
+        type: string
+        example: "Add to Cart"
   button-place:
     title: "Button Place"
     description: |
       Button Place buttons are used for the quantity grid section on Product Description page. Or the checkout place order.
-  Ghost:
+    fields:
+      - name: addcart
+        type: string
+        example: "Add to Cart"
+      - name: placeorder
+        type: string
+        example: "Place Order"
+      - name: url
+        type: url
+        example: "/products/"
+  ghost:
     title: "Ghost"
     description: |
       Ghost buttons are used for call to action banners section on our homepage. Can be used on any call to action banner throughout the website.
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"

@@ -73,3 +73,15 @@ patternbot:
       The quaternary pair opacity color will only ever be used on our image hovers.
 
       - On "Teas" page - use this opacity color for product image hovers for the White Tea section.
+  layouts:
+    defaults: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
