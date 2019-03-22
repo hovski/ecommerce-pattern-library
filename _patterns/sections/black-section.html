@@ -4,29 +4,12 @@
     <span class="blackline">|</span> Black Tea
   </h2>
   <div class="grid">
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-      {% pattern cards/item-4 %}
-    </div>
+    {% for product in site.products %}
+      {% if product.brief contains 'Black' %}
+        <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
+          {% pattern cards/tea-card data=product %}
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>

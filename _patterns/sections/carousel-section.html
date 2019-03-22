@@ -1,142 +1,31 @@
 <section class="max-length">
   <div class="carousel">
-    <input class="carousel-input" type="radio" name="mammals" id="arsinoitherium-control" checked>
-    <input class="carousel-input" type="radio" name="mammals" id="elasmotherium-control">
-    <input class="carousel-input" type="radio" name="mammals" id="glyptodon-control">
-    <input class="carousel-input" type="radio" name="mammals" id="megatherium-control">
+    {% for page in (0..3) %}
+      <input class="carousel-input" type="radio" name="mammals" id="carousel-control-{{forloop.index}}" {% if forloop.first %}checked{% endif %}>
+    {% endfor %}
 
     <div class="carousel-inner relative">
       <div class="carousel-items">
-        <div class="carousel-item embed embed-golden" id="arsinoitherium">
-          <div class="grid">
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
+        {% for page in (0..3) %}
+          <div class="carousel-item" id="carousel-{{forloop.index}}">
+            <div class="grid">
+              {% assign page_offset = page|times:8 %}
+              {% for product in site.products limit:8 offset:page_offset %}
+                <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
+                  {% pattern cards/tea-card data=product %}
+                </div>
+              {% endfor %}
             </div>
           </div>
-        </div>
-
-        <div class="carousel-item embed embed-golden" id="elasmotherium">
-          <div class="grid">
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item embed embed-golden" id="glyptodon">
-          <div class="grid">
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item embed embed-golden" id="megatherium">
-          <div class="grid">
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-            <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
-              {% pattern cards/item-4 %}
-            </div>
-          </div>
-        </div>
+        {% endfor %}
       </div>
 
       <ul class="carousel-controls list-group-inline w-1 text-center push-0 island-1-2">
-        <li>
-          <label class="carousel-btn icon i-18 ir" for="arsinoitherium-control">Arsinoitherium</label>
-        </li>
-        <li>
-          <label class="carousel-btn icon i-18 ir" for="elasmotherium-control">Elasmotherium</label>
-        </li>
-        <li>
-          <label class="carousel-btn icon i-18 ir" for="glyptodon-control">Glyptodon</label>
-        </li>
-        <li>
-          <label class="carousel-btn icon i-18 ir" for="megatherium-control">Megatherium</label>
-        </li>
+        {% for page in (0..3) %}
+          <li>
+            <label class="carousel-btn icon i-18 ir" for="carousel-control-{{forloop.index}}">Carousel page {{forloop.index}}</label>
+          </li>
+        {% endfor %}
       </ul>
 
     </div>

@@ -3,31 +3,7 @@ description: |
 
   Cards can be combined with images and throughout section grids.
 patterns:
-  item:
-    title: "White Tea Card"
-    description: |
-      White Tea Cards are used only specifically for White teas. Can be used in a grid grouping or individually.
-    fields:
-      - name: teaimage
-        type: string
-        example: "white-punch.jpg"
-  item-2:
-    title: "Herbal Tea Card"
-    description: |
-      Herbal Tea Cards are used only specifically for Herbal teas. Can be used in a grid grouping or individually.
-    fields:
-      - name: teaimage
-        type: string
-        example: "white-punch.jpg"
-  item-3:
-    title: "Green Tea Card"
-    description: |
-      Green Tea Cards are used only specifically for Green teas. Can be used in a grid grouping or individually.
-    fields:
-      - name: teaimage
-        type: string
-        example: "white-punch.jpg"
-  item-4:
+  tea-card:
     title: "Black Tea Card"
     description: |
       Black Tea Cards are used only specifically for Black teas. Can be used in a grid grouping or individually.
@@ -52,13 +28,3 @@ patterns:
       - name: productname
         type: string
         example: "Black Tea"
-  main-card:
-    title: "Main Card"
-    description: |
-      Checkout Cards are used only specifically for product checkout cart. Can be used in a grid grouping or individually.
-    fields:
-      - name: data
-        type: object
-        data:
-            source: "site.products[0]"
-            type: Product
