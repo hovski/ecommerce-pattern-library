@@ -61,3 +61,7 @@ a.card-4:hover::before {
 .card-4:hover .card-icon {
   visibility: visible;
 }
+
+.cardfocus:focus {
+  outline: 3px solid var(--color-focus-page);
+}

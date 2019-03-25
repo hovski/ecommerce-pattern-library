@@ -8,6 +8,7 @@
 }
 
 .nav-links:focus {
+  outline: 3px solid var(--color-focus-page);
   text-decoration: underline;
   color: var(--color-focus-page);
 }
@@ -24,4 +25,8 @@
 
 .footer-listcolor:hover {
   color: var(--color-grey);
+}
+
+.footer-listcolor:focus {
+  outline: 3px solid var(--color-focus-page);
 }

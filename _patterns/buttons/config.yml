@@ -14,6 +14,9 @@ patterns:
       - name: buttontext1
         type: string
         example: "Add to Cart"
+      - name: aria
+        type: string
+        example: "Add item to cart"
   button-place:
     title: "Button Place"
     description: |
@@ -22,6 +25,9 @@ patterns:
       - name: addcart
         type: string
         example: "Add to Cart"
+      - name: aria
+        type: string
+        example: "Add item to cart"
       - name: placeorder
         type: string
         example: "Place Order"
@@ -39,3 +45,6 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+      - name: aria
+        type: string
+        example: "Shop Now"

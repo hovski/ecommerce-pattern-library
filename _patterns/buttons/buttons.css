@@ -62,3 +62,10 @@
 .icon-push {
   padding-right: 5px;
 }
+
+.button-place:focus,
+.button-light:focus,
+.btn-ghost:focus,
+.btn:focus {
+  outline: 3px solid var(--color-focus-page);
+}

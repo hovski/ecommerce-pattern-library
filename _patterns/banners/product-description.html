@@ -1,9 +1,9 @@
-<div>
+<div class="" role="banner">
   <div class="grid bkg-colorz pad-b-2 pad-t-2">
     <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-2">
-      <img class="img-flex" src="{{include.image}}" alt="">
+      <img class="img-flex" src="{{include.image}}" alt="image of tea" aria-details="#tea">
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+    <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2" id="tea">
       <h1 class="push-0 gutter-2 pad-t-2">{{include.nameoftea}}</h1>
       <h3 class="gutter-2"><span class="title-line bold">|</span>{{include.teatype}}</h3>
       <p class="text-left gutter-2">{{include.descriptiontext}}</p>
@@ -29,7 +29,7 @@
             </div>
             <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
             {% if include.button_url %}
-              {% pattern buttons/button-place url=include.button_url addcart=include.button_addcart %}
+              {% pattern buttons/button-place url=include.button_url addcart=include.button_addcart aria=include.button_aria %}
             {% endif %}
             </div>
           </div>

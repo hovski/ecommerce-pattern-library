@@ -78,3 +78,7 @@ patterns:
         type: url
         example: "/products/"
         required: false
+      - name: button_aria
+        type: string
+        example: "Add to cart"
+        required: false
