@@ -1,15 +1,17 @@
+{% assign total_carousel_pages=3 %}
+{% assign total_carousel_products_per_page=8 %}
 <section class="max-length">
   <div class="carousel">
-    {% for page in (0..3) %}
+    {% for carousel_page in (0..total_carousel_pages) %}
       <input class="carousel-input" type="radio" name="mammals" id="carousel-control-{{forloop.index}}" {% if forloop.first %}checked{% endif %}>
     {% endfor %}
 
     <div class="carousel-inner relative">
       <div class="carousel-items">
-        {% for page in (0..3) %}
+        {% for carousel_page in (0..total_carousel_pages) %}
           <div class="carousel-item" id="carousel-{{forloop.index}}">
             <div class="grid">
-              {% assign page_offset = page|times:8 %}
+              {% assign page_offset = carousel_page|times:total_carousel_products_per_page %}
               {% for product in site.products limit:8 offset:page_offset %}
                 <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 island">
                   {% pattern cards/tea-card data=product %}
@@ -21,7 +23,7 @@
       </div>
 
       <ul class="carousel-controls list-group-inline w-1 text-center push-0 island-1-2">
-        {% for page in (0..3) %}
+        {% for carousel_page in (0..total_carousel_pages) %}
           <li>
             <label class="carousel-btn icon i-18 ir" for="carousel-control-{{forloop.index}}">Carousel page {{forloop.index}}</label>
           </li>
@@ -30,4 +32,21 @@
 
     </div>
   </div>
+
+  <style>
+    {% for carousel_page in (0..total_carousel_pages) %}
+      #carousel-control-{{forloop.index}}:checked ~ .carousel-inner #carousel-{{forloop.index}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {
+      display: block;
+    }
+
+    {% for carousel_page in (0..total_carousel_pages) %}
+      #carousel-control-{{forloop.index}}:checked ~ .carousel-inner [for="carousel-control-{{forloop.index}}"]{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+     {
+      background-color: var(--color-secondary);
+    }
+  </style>
+
 </section>
