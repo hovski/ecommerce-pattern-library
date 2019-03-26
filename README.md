@@ -42,6 +42,12 @@ This project was aimed to be the creation of completing a tea website for Teased
 Netlify URL: [https://stupefied-mccarthy-ee9958.netlify.com](https://stupefied-mccarthy-ee9958.netlify.com)
 
 ---
+
+## Collaborators
+
+- [@katz0018](https://github.com/katz0018)
+- [@hovski](https://github.com/hovski)
+---
 ## Copyright Notice
 
 2019 © Annie Pandolfi. All rights reserved.
