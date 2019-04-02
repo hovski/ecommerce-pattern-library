@@ -2,3 +2,100 @@
 layout: defaults
 highlight_nav: checkout
 ---
+
+<div class="grid">
+  <div class="unit xs-1 s-1 m-1 l-1">
+    <div>
+      {% pattern sections/order-head %}
+    </div>
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-3-4 l-3-4 island">
+        <div>
+          {% pattern sections/shipping-head %}
+        </div>
+        <div class="grid  grid-middle">
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="First Name" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Last Name" %}
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+            {% pattern forms/main name="Address" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Country" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Province" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="City" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Postal Code" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Phone Number" %}
+          </div>
+          <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 island-1-4 ">
+            <h6 class="push-0">Use this address for billing?</h6>
+            {% pattern forms/radio radio="Yes" %}
+          </div>
+          <div class="unit xs-1-4 s-1-4 m-1-4 l-1-4 island-1-4 ">
+            {% pattern forms/radio radio="No" %}
+          </div>
+        </div>
+        <div class="pad-t">
+          {% pattern sections/billing-head %}
+        </div>
+        <div class="grid">
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="First Name" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Last Name" %}
+          </div>
+          <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+            {% pattern forms/main name="Address" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Country" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Province" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="City" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Postal Code" %}
+          </div>
+          <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 island-1-4">
+            {% pattern forms/main name="Phone Number" %}
+          </div>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 island">
+        <div>
+          {% pattern sections/placeorder-head %}
+        </div>
+        <div>
+          {% pattern cards/checkout-card totaled="9.99" amountoftea="3" teaimage="white-punch.jpg" productname="Black Tea" %}
+          {% pattern cards/checkout-card totaled="9.99" amountoftea="3" teaimage="white-punch.jpg" productname="Black Tea" %}
+          {% pattern cards/checkout-card totaled="9.99" amountoftea="3" teaimage="white-punch.jpg" productname="Black Tea" %}
+          {% pattern cards/checkout-card totaled="9.99" amountoftea="3" teaimage="white-punch.jpg" productname="Black Tea" %}
+        </div>
+        <div>
+          {% pattern sections/subtotal subtotal="9.99" standardship="9.99" %}
+        </div>
+        <div class="push-0">
+          {% pattern sections/total pricingtotal="9.99" %}
+        </div>
+        <div class="pad-t-2">
+          {% pattern buttons/basic addcart="addcart" buttontext1="PLACE ORDER" aria="Add item to cart" %}
+        </div>
+    </div>
+  </div>
+</div>
+</div>
