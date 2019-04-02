@@ -46,7 +46,7 @@ Netlify URL: [https://stupefied-mccarthy-ee9958.netlify.com](https://stupefied-m
 ## Collaborators
 
 - [@katz0018](https://github.com/katz0018)
-- [@hovski](https://github.com/hovski)
+- [@libecap](https://github.com/libecap)
 ---
 ## Copyright Notice
 
