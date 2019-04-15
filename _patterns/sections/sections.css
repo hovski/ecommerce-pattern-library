@@ -92,3 +92,7 @@
 .bkground-wyl {
   background-color: var(--color-primary);
 }
+
+.bg-purple {
+  background-color: var(--color-tertiary);
+}
