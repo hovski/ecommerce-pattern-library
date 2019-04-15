@@ -62,7 +62,3 @@ patterns:
     title: "White Tea"
     description: |
       This is the first section from the top of on my Products page. It should be just above Herbal Tea.
-  bg-purple:
-    title: "Background Purple"
-    description: |
-      This is purple.
